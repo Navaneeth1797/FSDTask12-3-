@@ -1,0 +1,47 @@
+body {
+  background: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+.card {
+  margin-top: 20px;
+  width: 18rem;
+  border: none;
+  border-radius: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+#weatherContainer {
+  text-align: center;
+  padding: 20px;
+}
+#searchBtn {
+  background: linear-gradient(to left, #9e1f5a, #1f5564);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  margin: 10px;
+  transition: transform 0.5s ease, box-shadow 0.3s ease, opacity 0.3s ease,
+    background-color 0.3s ease;
+  width: 95%;
+  margin-top: 25%;
+  cursor: pointer;
+}
+#searchBtn:hover {
+  background: linear-gradient(to right, #3bafdc, #ff62ab);
+}
